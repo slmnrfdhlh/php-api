@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `profile` (
-  `ID` int(255) NOT NULL,
+  `Id` int(255) NOT NULL,
   `Username` varchar(255) NOT NULL,
   `Password` varchar(255) NOT NULL,
   `Level` varchar(255) NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE `profile` (
 -- Dumping data untuk tabel `profile`
 --
 
-INSERT INTO `profile` (`ID`, `Username`, `Password`, `Level`, `Fullname`) VALUES
+INSERT INTO `profile` (`Id`, `Username`, `Password`, `Level`, `Fullname`) VALUES
 (1, 'Salmaa ', 'Salmaa', 'Admin', 'Salmaa Nur Faadhilah'),
 (2, 'Sabil', 'Sabil', 'Guest', 'Salsabila Cahya '),
 (3, 'Simi', 'Simi', 'Guest', 'Symisius Lintang '),

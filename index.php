@@ -30,13 +30,13 @@
 
   while($baris_data=mysqli_fetch_array($peserta,MYSQLI_ASSOC)){
     ?>
-  	<tr>
       <td><?php echo $baris_data['id']; ?></td>
       <td><?php echo $baris_data['Username']; ?></td>
       <td><?php echo $baris_data['Password']; ?></td>
       <td><?php echo $baris_data['Level']; ?></td>
       <td><?php echo $baris_data['Fullname']; ?></td>
       <td>
+  	<tr>
 			<a class="edit" href="edit.php?Id=<?php echo $baris_data['id']; ?>">Edit</a> |
 			<a class="hapus" href="delete.php?Id=<?php echo $baris_data['id']; ?>">Hapus</a>
 		  </td>

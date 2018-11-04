@@ -24,6 +24,9 @@
         <td><input type="text" name="id"></td>
       </tr>
 			<tr>
+				<td>Id</td>
+				<td><input type="text" name="id"></td>
+			</tr><tr>
 				<td>Username</td>
 				<td><input type="text" name="username"></td>
 			</tr>
